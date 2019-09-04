@@ -1,6 +1,12 @@
-<% include partials/header%>
-
-<h1 style="margin-top: 50px">This page will contain the donation links through PAYUMONEY, and other platforms(use an api).</h1>
-
-
-<% include partials/footer%>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PayUMoney Payment Integration</title>
+</head>
+<body>
+	<form method="POST" action="http://localhost:3000/checkout">
+		<input type="text" name="amount" placeholder="Amount">
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>
