@@ -152,6 +152,9 @@ footer {
     letter-spacing: .18em;
 }
 
+footer a{
+	color:white;
+}
 /*
 .add-bottom-margin{
 	margin-bottom: 65px;
