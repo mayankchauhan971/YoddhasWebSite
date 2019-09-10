@@ -254,6 +254,6 @@ async function main(){
 	main().catch(console.error);
 });
 
-app.listen(300,(req,res) => {
-	console.log('App on 300');
+app.listen(3000,(req,res) => {
+	console.log('App on 3000');
 });

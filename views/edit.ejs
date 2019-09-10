@@ -1,4 +1,5 @@
 <% include ./partials/header %>
+<link rel="stylesheet" type="text/css" href="/stylesheets/blackbg.css">
 <div class="ui main text container segment">
     <div class="ui huge header">Edit <%= blog.title %></div>
     <form class="ui form" action="/blogs/<%= blog._id %>?_method=PUT" method="POST">
