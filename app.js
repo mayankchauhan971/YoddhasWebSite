@@ -49,7 +49,7 @@ var blogSchema = new mongoose.Schema({
     created: { type: Date, default: Date.now }
 });
 var Blog = mongoose.model("Blog", blogSchema);
-
+const port=process.env.PORT||3000
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 //DONATE Kar lo frands
 
@@ -372,6 +372,6 @@ app.post('/send', (req, res) => {
     main().catch(console.error);
 });
 
-app.listen(3000, (req, res) => {
+app.listen(port, (req, res) => {
     console.log('App on 3000');
 });
