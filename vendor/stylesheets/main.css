@@ -283,6 +283,7 @@ form {
 }
 
 .designationName{
+	margin-top: 40px;
 	font-size: 40px;
 	font-family: 'Raleway', sans-serif;	
 	background-color: #f99748;	
